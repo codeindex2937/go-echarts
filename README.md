@@ -8,26 +8,26 @@
 </p>
 
 <p align="center">
-    <a href="https://github.com/go-echarts/go-echarts/actions/workflows/ci.yml">
-        <img src="https://github.com/go-echarts/go-echarts/actions/workflows/ci.yml/badge.svg" alt="Build Status">
+    <a href="https://github.com/codeindex2937/go-echarts/actions/workflows/ci.yml">
+        <img src="https://github.com/codeindex2937/go-echarts/actions/workflows/ci.yml/badge.svg" alt="Build Status">
     </a>
-    <a href="https://goreportcard.com/report/github.com/go-echarts/go-echarts">
-        <img src="https://goreportcard.com/badge/github.com/go-echarts/go-echarts" alt="Go Report Card">
+    <a href="https://goreportcard.com/report/github.com/codeindex2937/go-echarts">
+        <img src="https://goreportcard.com/badge/github.com/codeindex2937/go-echarts" alt="Go Report Card">
     </a>
-	<a href="https://github.com/go-echarts/go-echarts/pulls">
+	<a href="https://github.com/codeindex2937/go-echarts/pulls">
         <img src="https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat" alt="Contributions welcome">
     </a>
     <a href="https://opensource.org/licenses/MIT">
         <img src="https://img.shields.io/badge/License-MIT-brightgreen.svg" alt="MIT License">
     </a>
-    <a href="https://pkg.go.dev/github.com/go-echarts/go-echarts/v2">
-        <img src="https://godoc.org/github.com/go-echarts/go-echarts?status.svg" alt="GoDoc">
+    <a href="https://pkg.go.dev/github.com/codeindex2937/go-echarts/v2">
+        <img src="https://godoc.org/github.com/codeindex2937/go-echarts?status.svg" alt="GoDoc">
     </a>
 </p>
 
 > If a language can be used to build web scrapers, it definitely needs to provide a graceful data visualization library. --- by dongdong.
 
-In the Golang ecosystem, there are not many choices for data visualization libraries. The development of [go-echarts](https://github.com/go-echarts/go-echarts) aims to provide a simple yet powerful data visualization library for Golang. [Apache ECharts](https://echarts.apache.org/) is an outstanding charting and visualization library, it supports adorable chart types and various interactive features. There are many language bindings for Echarts, for example, [pyecharts](https://github.com/pyecharts/pyecharts). go-echarts learns from pyecharts and has evolved a lot.
+In the Golang ecosystem, there are not many choices for data visualization libraries. The development of [go-echarts](https://github.com/codeindex2937/go-echarts) aims to provide a simple yet powerful data visualization library for Golang. [Apache ECharts](https://echarts.apache.org/) is an outstanding charting and visualization library, it supports adorable chart types and various interactive features. There are many language bindings for Echarts, for example, [pyecharts](https://github.com/pyecharts/pyecharts). go-echarts learns from pyecharts and has evolved a lot.
 
 [中文 README](README_CN.md)
 
@@ -40,7 +40,7 @@ Classic way to get go-echarts
 # the next generation version management system... 🐶
 # if you get a better workaround, please let me know....
 
-$ go get -u github.com/go-echarts/go-echarts/...
+$ go get -u github.com/codeindex2937/go-echarts/...
 $ cd $go-echarts-project
 $ mkdir v2 && mv charts components datasets opts render templates types v2
 ```
@@ -48,7 +48,7 @@ $ mkdir v2 && mv charts components datasets opts render templates types v2
 Use gomod style
 
 ```shell
-$ go get -u github.com/go-echarts/go-echarts/v2/...
+$ go get -u github.com/codeindex2937/go-echarts/v2/...
 ```
 
 OR
@@ -56,7 +56,7 @@ OR
 ```shell
 # go.mod
 
-require github.com/go-echarts/go-echarts/v2
+require github.com/codeindex2937/go-echarts/v2
 ```
 
 ### ⏳ Version
@@ -84,8 +84,8 @@ import (
 	"math/rand"
 	"os"
 
-	"github.com/go-echarts/go-echarts/v2/charts"
-	"github.com/go-echarts/go-echarts/v2/opts"
+	"github.com/codeindex2937/go-echarts/v2/charts"
+	"github.com/codeindex2937/go-echarts/v2/opts"
 )
 
 // generate random data for bar chart
@@ -129,9 +129,9 @@ import (
 	"math/rand"
 	"net/http"
 
-	"github.com/go-echarts/go-echarts/v2/charts"
-	"github.com/go-echarts/go-echarts/v2/opts"
-	"github.com/go-echarts/go-echarts/v2/types"
+	"github.com/codeindex2937/go-echarts/v2/charts"
+	"github.com/codeindex2937/go-echarts/v2/opts"
+	"github.com/codeindex2937/go-echarts/v2/types"
 )
 
 // generate random data for line chart
@@ -200,7 +200,7 @@ func main() {
 <img src="https://user-images.githubusercontent.com/19553554/52349544-c2ce3900-2a61-11e9-82af-28aaaaae0d67.gif" width="33%" alt="overlap"/>
 </div>
 
-For more information, please refer to [go-echarts/examples](https://github.com/go-echarts/examples) and the [GoDoc](https://pkg.go.dev/github.com/go-echarts/go-echarts/v2).
+For more information, please refer to [go-echarts/examples](https://github.com/codeindex2937/examples) and the [GoDoc](https://pkg.go.dev/github.com/codeindex2937/go-echarts/v2).
 
 ### 💡 Contributing
 
@@ -210,7 +210,7 @@ We strongly value documentation and integration with other projects so we are ve
 
 ### 😉 Authors
 
-Code with ❤️ by [chenjiandongx](https://github.com/chenjiandongx) / [Koooooo-7](https://github.com/Koooooo-7) and lovely [contributors](https://github.com/go-echarts/go-echarts/graphs/contributors)
+Code with ❤️ by [chenjiandongx](https://github.com/chenjiandongx) / [Koooooo-7](https://github.com/Koooooo-7) and lovely [contributors](https://github.com/codeindex2937/go-echarts/graphs/contributors)
 
 ### 📃 License
 

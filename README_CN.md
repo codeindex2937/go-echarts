@@ -8,26 +8,26 @@
 </p>
 
 <p align="center">
-    <a href="https://github.com/go-echarts/go-echarts/actions/workflows/ci.yml">
-        <img src="https://github.com/go-echarts/go-echarts/actions/workflows/ci.yml/badge.svg" alt="Build Status">
+    <a href="https://github.com/codeindex2937/go-echarts/actions/workflows/ci.yml">
+        <img src="https://github.com/codeindex2937/go-echarts/actions/workflows/ci.yml/badge.svg" alt="Build Status">
     </a>
-    <a href="https://goreportcard.com/report/github.com/go-echarts/go-echarts">
-        <img src="https://goreportcard.com/badge/github.com/go-echarts/go-echarts" alt="Go Report Card">
+    <a href="https://goreportcard.com/report/github.com/codeindex2937/go-echarts">
+        <img src="https://goreportcard.com/badge/github.com/codeindex2937/go-echarts" alt="Go Report Card">
     </a>
-	<a href="https://github.com/go-echarts/go-echarts/pulls">
+	<a href="https://github.com/codeindex2937/go-echarts/pulls">
         <img src="https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat" alt="Contributions welcome">
     </a>
     <a href="https://opensource.org/licenses/MIT">
         <img src="https://img.shields.io/badge/License-MIT-brightgreen.svg" alt="MIT License">
     </a>
-        <a href="https://pkg.go.dev/github.com/go-echarts/go-echarts/v2">
-        <img src="https://godoc.org/github.com/go-echarts/go-echarts?status.svg" alt="GoDoc">
+        <a href="https://pkg.go.dev/github.com/codeindex2937/go-echarts/v2">
+        <img src="https://godoc.org/github.com/codeindex2937/go-echarts?status.svg" alt="GoDoc">
     </a>
 </p>
 
 > 如果一门语言可以用来写爬虫，那么它就需要一个优雅的数据可视化库。 --- by dongdong
 
-在 Golang 这门语言中，目前数据可视化的第三方库还是特别少，[go-echarts](https://github.com/go-echarts/go-echarts) 的开发就是为了填补这部分的空隙。[Apache ECharts](http://echarts.apache.org/) 是非常优秀的可视化图表库，凭借着良好的交互性，精巧的图表设计，得到了众多开发者的认可。也有其他语言为其实现了相应语言版本的接口，如 Python 的 [pyecharts](https://github.com/pyecharts/pyecharts)，go-echarts 也是借鉴了 pyecharts 的一些设计思想。
+在 Golang 这门语言中，目前数据可视化的第三方库还是特别少，[go-echarts](https://github.com/codeindex2937/go-echarts) 的开发就是为了填补这部分的空隙。[Apache ECharts](http://echarts.apache.org/) 是非常优秀的可视化图表库，凭借着良好的交互性，精巧的图表设计，得到了众多开发者的认可。也有其他语言为其实现了相应语言版本的接口，如 Python 的 [pyecharts](https://github.com/pyecharts/pyecharts)，go-echarts 也是借鉴了 pyecharts 的一些设计思想。
 
 
 ### 🔰 安装
@@ -35,7 +35,7 @@
 GOPATH
 
 ```shell
-$ go get -u github.com/go-echarts/go-echarts/...
+$ go get -u github.com/codeindex2937/go-echarts/...
 
 # 因为 gomod 的特殊的版本管理方式，使用 go get 方式并不能直接使用 v2 go-echarts 🐶
 # 不过可以通过以下方法使用新版本...
@@ -46,7 +46,7 @@ $ mkdir v2 && mv charts components datasets opts render templates types v2
 GoMod
 
 ```shell
-require github.com/go-echarts/go-echarts/v2
+require github.com/codeindex2937/go-echarts/v2
 ```
 
 ### ⏳ 版本
@@ -72,8 +72,8 @@ import (
 	"math/rand"
 	"os"
 
-	"github.com/go-echarts/go-echarts/v2/charts"
-	"github.com/go-echarts/go-echarts/v2/opts"
+	"github.com/codeindex2937/go-echarts/v2/charts"
+	"github.com/codeindex2937/go-echarts/v2/opts"
 )
 
 // generate random data for bar chart
@@ -117,9 +117,9 @@ import (
 	"math/rand"
 	"net/http"
 
-	"github.com/go-echarts/go-echarts/v2/charts"
-	"github.com/go-echarts/go-echarts/v2/opts"
-	"github.com/go-echarts/go-echarts/v2/types"
+	"github.com/codeindex2937/go-echarts/v2/charts"
+	"github.com/codeindex2937/go-echarts/v2/opts"
+	"github.com/codeindex2937/go-echarts/v2/types"
 )
 
 // generate random data for line chart
@@ -188,7 +188,7 @@ func main() {
 <img src="https://user-images.githubusercontent.com/19553554/52349544-c2ce3900-2a61-11e9-82af-28aaaaae0d67.gif" width="33%" alt="overlap"/>
 </div>
 
-了解更多文档的内容请访问 [go-echarts/examples](https://github.com/go-echarts/examples) 以及 [GoDoc](https://pkg.go.dev/github.com/go-echarts/go-echarts/v2)
+了解更多文档的内容请访问 [go-echarts/examples](https://github.com/codeindex2937/examples) 以及 [GoDoc](https://pkg.go.dev/github.com/codeindex2937/go-echarts/v2)
 
 ### 📃 License
 

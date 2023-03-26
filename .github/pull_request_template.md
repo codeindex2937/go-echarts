@@ -23,11 +23,11 @@ Fixes # (issue)
 
 ---
 # Examples:
-Are you willing to submit a PR on [go-echarts/Examples](https://github.com/go-echarts/examples)?
+Are you willing to submit a PR on [go-echarts/Examples](https://github.com/codeindex2937/examples)?
 > This is absolutely not required, but we are happy to see that you could share or update the related
 charts examples to more users.
 
-- [ ] Yes, I am willing to submit a PR on [Examples](https://github.com/go-echarts/examples)!
+- [ ] Yes, I am willing to submit a PR on [Examples](https://github.com/codeindex2937/examples)!
 
 <!-- The related PRs in Example : -->
 
