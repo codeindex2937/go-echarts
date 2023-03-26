@@ -8,6 +8,7 @@ import (
 // Chart3D is a chart in 3D coordinates.
 type Chart3D struct {
 	BaseConfiguration
+	BaseActions
 }
 
 // WithXAxis3DOpts sets the X axis of the Chart3D instance.
